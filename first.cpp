@@ -24,3 +24,10 @@ public:
     Lingkaran ol;
 
 };
+
+class Lingkaran
+{
+public:
+    int jarijari;
+
+}
