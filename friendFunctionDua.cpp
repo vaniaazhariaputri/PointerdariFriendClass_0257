@@ -19,3 +19,13 @@ public:
 };
 
 void manusia::ShowNilaiPelajar(pelajar &x)
+{
+    cout << x.nilai;
+}
+int main()
+{
+    manusia budi;
+    pelajar pbudi;
+    budi.ShowNilaiPelajar(pbudi);
+    return 0;
+}
