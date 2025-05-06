@@ -30,4 +30,16 @@ class Lingkaran
 public:
     int jarijari;
 
-}
+    void input()
+    {
+        cout << "Masukkan jari-jari : ";
+        cin >> jarijari;
+    }
+
+    int luaslingkaran(int r)
+    {
+        return 3.14 * r * r;
+    }
+};
+
+
